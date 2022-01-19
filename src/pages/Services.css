@@ -1,0 +1,16 @@
+.serv_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 450px;
+    margin-bottom: 50px;
+
+}
+.serv p{
+    margin-bottom: -70px;
+    font-size:1.5rem;
+}
+.serv h1{
+    font-family: 'Comforter', cursive;
+
+}

@@ -1,0 +1,76 @@
+* {
+    text-align: center;
+    }
+    .form {
+       
+       height: 100vh;
+       width: 100%;
+        background-image: url("https://images.pexels.com/photos/6320/smartphone-vintage-technology-music.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    }
+    .form h1{
+        font-family: 'Comforter', cursive;
+
+    }
+    .label{
+    display: block;
+    font-size: larger;
+    padding: 5px;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    }
+    h1{
+        padding: 60px 0 0 0;
+    }
+    .input{
+    font-size: larger;
+    padding: 5px;
+    margin: 2px 2px 20px 2px;
+    font-family: 'Outfit', sans-serif;
+    }
+    .btn_1{
+    color: white;
+    background: rgb(105, 69, 80);
+    border-radius: 10px;
+    font-size: larger;
+    display: block;
+    padding: 5px;
+    margin: 10px auto 50px auto;
+    }
+    
+    .messages{
+    display: flex;
+    justify-content: center;
+    }
+    
+    .error{
+    display: block;
+    background-color: red;
+    color: white;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+    }
+    
+    .success{
+    margin-top: -90px ;
+    color: rgb(105, 69, 80);
+    width: fit-content;
+    padding: 5px;
+    }
+    .success h1 {
+        font-size : 3rem;
+        height : 20px;
+        margin-bottom: 90px;
+        font-family: 'Comforter', cursive;
+
+
+    }
+    .error h1{
+        color: rgb(105, 69, 80);
+        font-size : 3rem;
+        height : 20px;
+        margin-bottom: 90px;
+        font-family: 'Comforter', cursive;
+
+    }
+    

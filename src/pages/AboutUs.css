@@ -1,0 +1,14 @@
+.about_img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 450px;
+}
+p{
+    font-family: cursive;
+    font-size: 1rem;
+    margin: 50px 120px; 
+    text-align: center;
+}
+.about_us p {
+}

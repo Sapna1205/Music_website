@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+.imgs > div {
+    position: relative;
+    background: #FDFAF6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 500px;
+    
+  }
+  .image{
+    padding: 30px;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    height: 400px;
+    width: 60%;
+   
+    
+  }
+
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    border: 3px solid #f1f1f1;  
+    border-radius: 15px;
+    z-index: 2;
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    
+  }
+  
